@@ -251,7 +251,7 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     height: calc(100vh - 117px);
-    min-height: 700px; }
+    min-width: 700px; }
     .owl-carousel.home-slider .slider-item .slider-text {
       color: #fff;
       height: calc(100vh - 117px);
@@ -698,3 +698,6 @@ header {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    /*END*/
+
