@@ -250,12 +250,12 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: calc(100vh - 117px);
+    height: calc(100vh - 82px); /*MAIN*/
     min-width: 700px; }
     .owl-carousel.home-slider .slider-item .slider-text {
       color: #fff;
-      height: calc(100vh - 117px);
-      min-height: 700px; }
+      height: calc(100vh - 82px); /*MAIN TEXT*/
+      min-height: 720px; }
       .owl-carousel.home-slider .slider-item .slider-text h1 {
         font-size: 3rem;
         color: #fff;
@@ -271,12 +271,14 @@ header {
         font-weight: 300;
         color: white; }
   .owl-carousel.home-slider.inner-page .slider-item {
-    height: calc(50vh - 117px);
-    min-height: 500px; }
+    height: calc(50vh - 117px); 
+    min-height: 631px;
+    min-width: 0px;
+     } 
     .owl-carousel.home-slider.inner-page .slider-item .slider-text {
       color: #fff;
       height: calc(50vh - 117px);
-      min-height: 500px; }
+      min-height: 500px; } 
   .owl-carousel.home-slider .owl-dots {
     position: absolute;
     bottom: 150px;
@@ -297,12 +299,12 @@ header {
         position: absolute;
         width: 20px;
         height: 3px;
-        background: rgba(255, 255, 255, 0.5);
+        background: #9E9E9E;
         left: 50%;
         top: 50%;
         display: block; }
       .owl-carousel.home-slider .owl-dots .owl-dot.active span {
-        background: white; }
+        background: #5cb027; }
 
 .owl-carousel.major-caousel .owl-stage-outer {
   padding-top: 30px;
@@ -700,4 +702,8 @@ header {
     stroke-dashoffset: -136px; } }
 
     /*END*/
+
+html {
+  scroll-behavior: smooth;
+}
 
