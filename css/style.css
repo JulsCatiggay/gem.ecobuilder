@@ -328,7 +328,7 @@ header {
   right: -60px !important; }
 
 .owl-carousel.major-caousel .owl-dots {
-  bottom: -30px !important;
+  bottom: 15px !important;
   position: relative; }
 
 .owl-custom-nav {
