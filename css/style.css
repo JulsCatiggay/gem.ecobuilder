@@ -713,7 +713,7 @@ html {
 
 @media (max-width: 768px) {
   .owl-carousel.home-slider.inner-page .slider-item {
-    height: calc(38vh - 100px); 
+    height: calc(40vh - 100px); 
     min-height: 10px;
     min-width: 100px;
      } 
